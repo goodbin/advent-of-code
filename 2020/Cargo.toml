@@ -1,0 +1,9 @@
+[package]
+name = "adventofcode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = { version = "1.0.30", default-features = false }
+regex = { version = "1.5.4", features = ["std"], default-features = false }
+once_cell = { version = "1.8.0", features = ["std"], default-features = false }
